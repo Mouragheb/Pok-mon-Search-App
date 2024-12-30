@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #202020, #2a2a2a);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #5e2f87;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #7633b8;
+}
+
+.output {
+  margin-top: 15px;
+}
+
+.name-and-id,
+.size {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.sprite-container {
+  margin: 10px auto;
+}
+
+table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #5e2f87;
+  padding: 10px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+th {
+  background-color: #5e2f87;
+  color: white;
+}
+
+td {
+  background-color: #f3f3f3;
+}
+
+#types {
+  margin-top: 10px;
+}
